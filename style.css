@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    background:linear-gradient(rgba(255,255,255,0.5), rgba(97, 108, 252, 0.5)), url("backgrund.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.resultaten {
+    display: flex;
+    padding-top: 2%;
+    justify-content: space-evenly; 
+ }
+
+.s-val{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+.val {
+    background: none;
+    border: none;
+    font-size: 8rem;
+    
+}
+
+.val:hover{
+    transform: scale(1.2);
+    
+}
+
+
+
